@@ -1,5 +1,5 @@
 Analysis & Elaboration report for NeuralNetwork
-Fri Dec 14 06:27:58 2018
+Fri Dec 14 06:53:19 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -56,7 +56,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Fri Dec 14 06:27:58 2018       ;
+; Analysis & Elaboration Status      ; Successful - Fri Dec 14 06:53:19 2018       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; NeuralNetwork                               ;
 ; Top-level Entity Name              ; InterLayer                                  ;
@@ -407,7 +407,7 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Fri Dec 14 06:26:17 2018
+    Info: Processing started: Fri Dec 14 06:52:08 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off NeuralNetwork -c NeuralNetwork --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -424,8 +424,8 @@ Info (12021): Found 2 design units, including 0 entities, in source file fixed_p
     Info (12022): Found design unit 1: slogic_package File: /home/viniciusas/Projects/Class/DigitalSystemsProjects/AVA_3/NN/fixed_point/slogic_package.vhd Line: 5
     Info (12022): Found design unit 2: slogic_package-body File: /home/viniciusas/Projects/Class/DigitalSystemsProjects/AVA_3/NN/fixed_point/slogic_package.vhd Line: 35
 Info (12021): Found 2 design units, including 1 entities, in source file NeuralNetwork.vhd
-    Info (12022): Found design unit 1: NeuralNetwork-nn File: /home/viniciusas/Projects/Class/DigitalSystemsProjects/AVA_3/NN/NeuralNetwork.vhd Line: 22
-    Info (12023): Found entity 1: NeuralNetwork File: /home/viniciusas/Projects/Class/DigitalSystemsProjects/AVA_3/NN/NeuralNetwork.vhd Line: 16
+    Info (12022): Found design unit 1: NeuralNetwork-nn File: /home/viniciusas/Projects/Class/DigitalSystemsProjects/AVA_3/NN/NeuralNetwork.vhd Line: 18
+    Info (12023): Found entity 1: NeuralNetwork File: /home/viniciusas/Projects/Class/DigitalSystemsProjects/AVA_3/NN/NeuralNetwork.vhd Line: 8
 Info (12021): Found 2 design units, including 0 entities, in source file NetworkConstants.vhd
     Info (12022): Found design unit 1: NetworkConstants File: /home/viniciusas/Projects/Class/DigitalSystemsProjects/AVA_3/NN/NetworkConstants.vhd Line: 4
     Info (12022): Found design unit 2: NetworkConstants-body File: /home/viniciusas/Projects/Class/DigitalSystemsProjects/AVA_3/NN/NetworkConstants.vhd Line: 39
@@ -2286,9 +2286,9 @@ Info (12128): Elaborating entity "NodePos" for hierarchy "InterLayerCore:\u_core
 Info (12128): Elaborating entity "WeightPos" for hierarchy "InterLayerCore:\u_cores:0:u_interlayer_core|WeightPos:u_calc_pos_weight" File: /home/viniciusas/Projects/Class/DigitalSystemsProjects/AVA_3/NN/InterLayerCore.vhd Line: 98
 Info (12128): Elaborating entity "ActivationFunction" for hierarchy "InterLayerCore:\u_cores:0:u_interlayer_core|ActivationFunction:u_activation" File: /home/viniciusas/Projects/Class/DigitalSystemsProjects/AVA_3/NN/InterLayerCore.vhd Line: 103
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 3559 megabytes
-    Info: Processing ended: Fri Dec 14 06:27:59 2018
-    Info: Elapsed time: 00:01:42
-    Info: Total CPU time (on all processors): 00:02:00
+    Info: Peak virtual memory: 3339 megabytes
+    Info: Processing ended: Fri Dec 14 06:53:20 2018
+    Info: Elapsed time: 00:01:12
+    Info: Total CPU time (on all processors): 00:01:30
 
 

@@ -1,5 +1,5 @@
 Flow report for NeuralNetwork
-Fri Dec 14 06:27:58 2018
+Fri Dec 14 06:53:19 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Dec 14 06:27:58 2018       ;
+; Flow Status                        ; Successful - Fri Dec 14 06:53:19 2018       ;
 ; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                      ; NeuralNetwork                               ;
 ; Top-level Entity Name              ; InterLayer                                  ;
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/14/2018 06:26:18 ;
+; Start date & time ; 12/14/2018 06:52:08 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; NeuralNetwork       ;
 +-------------------+---------------------+
@@ -77,7 +77,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 123250726306739.154477597704506        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 123250726306739.154477752805299        ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                 ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
@@ -98,8 +98,8 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:01:41     ; 1.0                     ; 3559 MB             ; 00:01:59                           ;
-; Total                  ; 00:01:41     ; --                      ; --                  ; 00:01:59                           ;
+; Analysis & Elaboration ; 00:01:11     ; 1.0                     ; 3339 MB             ; 00:01:29                           ;
+; Total                  ; 00:01:11     ; --                      ; --                  ; 00:01:29                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
