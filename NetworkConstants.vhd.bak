@@ -1,0 +1,14 @@
+package package_name is
+
+	type LAYER_WEIGHTS is array (LAYER_SIZE_LENGTH*LAYER_SIZE_LENGTH-1 downto 0) of integer;
+
+	MAX_LAYER_SIZE := 200;
+	N_LAYERS := 20;
+
+	PRECISION := 20;
+
+	type NODE_WEIGHTS       is array (MAX_LAYER_SIZE-1 downto 0) of std_logic_vector(PRECISION-1 downto 0);
+	type INTERLAYER_WEIGHTS is array (MAX_LAYER_SIZE-1 downto 0) of NODE_WEIGHTS;
+	type ALL_WEIGHTS        is array (N_LAYERS-1 downto 0)       of INTERLAYER_WEIGHTS;
+
+end package_name;

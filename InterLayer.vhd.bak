@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity InterLayer is
+	port();
+end entity;
+
+architecture il1 of InterLayer is
+begin
+
+end architecture;

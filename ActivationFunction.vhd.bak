@@ -1,0 +1,15 @@
+library Work;
+use Work.slogic_package
+
+entity ActivationFunction is
+	port(
+		i_X: 
+		o_Y: 
+	);
+end entity;
+
+architecture archReLU of ActivationFunction is
+
+
+
+end architecture;
